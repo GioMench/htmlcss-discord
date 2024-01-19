@@ -1,163 +1,39 @@
-/* region common*/
-body {
-    margin: 0px;
+:root{
+    --discord-primary: rgba(48,97,255,1) ;
+    --discord-dark:rgba(34,39,43,1);
+    --discord-light:rgba(246,246,246,1);
 }
-/*region header*/
-header {
-    background-color: lightgreen;
-    height: 40px;
+
+.debug #site_header{
+    background-color: var(--discord-primary);
+}
+
+
+.body{
+    margin:0;
+    display: flex;
+}
+
+/*site_header*/
+
+.header{
+    display: flex;
+}
+
+.container{
+    width: 80%;
+    max-width: 1200px;
+    margin:auto;
+}
+
+.d-flex{
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: center;
-
-}
-
-.logo {
-    background-color: greenyellow;
-    height: 15px;
-    width: 30px;
-}
-
-.link {
-    background-color: green;
-    height: 15px;
-    width: 30px;
 }
 
 
-.login {
-    background-color: greenyellow;
-    height: 15px;
-    width: 30px;
-}
-/*endregion header*/
-
-/*region main*/
-main {
-    display: flex;
-    flex-direction: column;
+ul{
+    list-style-type: none;
 }
 
-.first {
-    background-color: lightgoldenrodyellow;
-    height: 90px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 
-.description {
-    padding: 30px 50px;
-    background-color: yellow;
-}
-
-.second {
-
-    background-color: lightsalmon;
-    height: 90px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.third {
-    background-color: rgb(252, 171, 139);
-    height: 90px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.fourth {
-    background-color: rgb(255, 190, 164);
-    height: 90px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.fifth {
-    background-color: rgb(248, 207, 190);
-    height: 90px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.imagin {
-    padding: 30px 35px;
-    background-color: lightcoral;
-}
-
-.write {
-    padding: 30px 15px;
-    background-color: crimson;
-}
-
-.single {
-    padding: 37px 50px;
-    background-color: lightpink;
-}
-
-/*endregion main*/
-
-/*region footer*/
-footer {
-    display: flex;
-    flex-direction: column;
-    background-color: rgb(193, 250, 250);
-}
-
-.link_size {
-    height: 70px;
-    border-bottom: 1px solid violet;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: center;
-}
-
-.app {
-    padding: 30.5px 15px;
-    background-color: blue;
-    margin-top: 2px;
-}
-
-.connections {
-    padding: 30px 8px;
-    background-color: aqua;
-    box-sizing: border-box;
-    border: 1px solid lightskyblue;
-    margin-top: 2px;
-}
-
-/*secon footersize */
-.endpage {
-    height: 40px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-}
-
-.endbox {
-    padding: 6px 0px;
-    width: 100px;
-    background-color: rgb(113, 132, 255);
-    display: flex;
-    justify-content: space-between;
-}
-
-.logof {
-    background-color: pink;
-    height: 15px;
-    width: 30px;
-}
-
-.loginf {
-    background-color: pink;
-    height: 15px;
-    width: 30px;
-}
-/*endregion footer*/
