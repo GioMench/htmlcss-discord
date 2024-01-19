@@ -4,25 +4,25 @@
     --discord-light:rgba(246,246,246,1);
 }
 
-.body{
-    margin: 0px;
-    display: flex;
+body{
+    margin: 0;
 }
 
-.debug #site_header{
+#site_header{
+    margin: 0;
     background-color: var(--discord-primary);
 }
 
 /*site_header*/
 
-.header{
+header{
     display: flex;
 }
 
 .container{
     width: 60%;
     max-width: 1200px;
-    margin:auto;
+    margin: auto;
 }
 
 .d-flex{
@@ -38,9 +38,7 @@ ul{
     color: white;
     list-style-type: none;
     display: flex;
-    flex-direction: row;
-    justify-self: ;
-    
+    flex-direction: row;   
 }
 
 li{
@@ -53,4 +51,7 @@ button{
     padding: 8px;
     border-width: 0;
 }
+/*endsite_header*/
+
+/*site_main*/
 
