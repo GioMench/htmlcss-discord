@@ -4,19 +4,37 @@
     --discord-light:rgba(246,246,246,1);
 }
 
-.debug{
-    margin:0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-.container{
-    height: 300px;
-}
-
-
 .debug #site_header{
     background-color: var(--discord-primary);
 }
 
+
+.body{
+    margin:0;
+    display: flex;
+}
+
+/*site_header*/
+
+.header{
+    display: flex;
+}
+
+.container{
+    width: 80%;
+    max-width: 1200px;
+    margin:auto;
+}
+
+.d-flex{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+
+ul{
+    list-style-type: none;
+}
 
