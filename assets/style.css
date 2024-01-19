@@ -4,14 +4,13 @@
     --discord-light:rgba(246,246,246,1);
 }
 
-.debug #site_header{
-    background-color: var(--discord-primary);
+.body{
+    margin: 0px;
+    display: flex;
 }
 
-
-.body{
-    margin:0;
-    display: flex;
+.debug #site_header{
+    background-color: var(--discord-primary);
 }
 
 /*site_header*/
@@ -21,7 +20,7 @@
 }
 
 .container{
-    width: 80%;
+    width: 60%;
     max-width: 1200px;
     margin:auto;
 }
@@ -30,11 +29,28 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+
 }
 
 
 ul{
+    color: white;
     list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-self: ;
+    
+}
+
+li{
+    padding: 1rem;
+}
+
+button{
+    border-radius: 20px;
+    background-color: white;
+    padding: 8px;
+    border-width: 0;
 }
 
