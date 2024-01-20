@@ -58,18 +58,24 @@ button {
 
 main{
     display: flex;
+    margin: 0px;
+    
 }
 
 #first{
     background-image: url(./img/jumbo.png);
-    background-repeat: round;
-    background-size: auto;
+    background-repeat:no-repeat;
+    background-size:cover;
+    width: 100%;
+    
+    
+}
+
+.your_space{
     color: white;
     text-align: center;
     width: 60%;
-    max-width: 1200px;
-    margin: auto;
+    margin: auto; 
+    padding: 90px;
 
-    
-    
 }
