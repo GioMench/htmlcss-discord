@@ -20,8 +20,7 @@ header {
 }
 
 .container {
-    width: 60%;
-    max-width: 1200px;
+    width: 70%;
     margin: auto;
 }
 
@@ -69,7 +68,7 @@ main{
     background-repeat:no-repeat;
     background-size:cover;
     width: 100%;
-    height: fit-content;  
+    height:max-content;  
 }
 
 .your_space{
@@ -86,20 +85,19 @@ main{
 }
 /*end first*/
 
-#second{
+.second-type{
     display: flex;
     flex-direction: row;
-    text-align: center;
-    width: 60%;
-    margin:auto;
-    
+    justify-content: space-between;
+    flex-wrap: nowrap;   
 }
 
 .picture{
-    height: 20px;
-    height: 10px;
+   
+
 }
 
 .description{
-    padding:20px;
+    
 }
+/*second*/
