@@ -61,7 +61,7 @@ button{
 main{
     display: flex;
     margin: 0px;
-    
+    flex-direction: column;
 }
 
 #first{
@@ -76,11 +76,30 @@ main{
     color: white;
     text-align: center;
     width: 60%;
-    margin: 10px auto 20px auto; 
-    padding: 90px;
+    margin: auto; 
+    padding: 100px;
 }
 
 .browser{
     color: white;
     background-color: var(--discord-dark);
+}
+/*end first*/
+
+#second{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    width: 60%;
+    margin:auto;
+    
+}
+
+.picture{
+    height: 20px;
+    height: 10px;
+}
+
+.description{
+    padding:20px;
 }
