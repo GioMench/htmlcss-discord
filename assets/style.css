@@ -67,8 +67,7 @@ main{
     background-repeat:no-repeat;
     background-size:cover;
     width: 100%;
-    
-    
+    height: fit-content;  
 }
 
 .your_space{
@@ -77,5 +76,4 @@ main{
     width: 60%;
     margin: auto; 
     padding: 90px;
-
 }
