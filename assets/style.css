@@ -48,7 +48,7 @@ li {
 button {
     border-radius: 20px;
     background-color: white;
-    padding: 8px;
+    padding: 10px;
     border-width: 0;
 }
 
@@ -76,4 +76,9 @@ main{
     width: 60%;
     margin: auto; 
     padding: 90px;
+}
+
+.browser{
+    color: white;
+    background-color: var(--discord-dark);
 }
