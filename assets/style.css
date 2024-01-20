@@ -1,6 +1,6 @@
 :root {
-    --discord-primary: rgba(48, 97, 255, 1);
-    --discord-dark: rgba(34, 39, 43, 1);
+    --discord-primary: #255ee9;
+    --discord-dark: #23272a;
     --discord-light: rgba(246, 246, 246, 1);
 }
 
@@ -45,11 +45,13 @@ li {
     padding: 1rem;
 }
 
-button {
+button{
     border-radius: 20px;
     background-color: white;
-    padding: 10px;
+    padding: 9px 20px 9px 20px;
     border-width: 0;
+    margin: 2px 10px 2px 10px;
+    text-align: center;
 }
 
 /*endsite_header*/
@@ -74,7 +76,7 @@ main{
     color: white;
     text-align: center;
     width: 60%;
-    margin: auto; 
+    margin: 10px auto 20px auto; 
     padding: 90px;
 }
 
