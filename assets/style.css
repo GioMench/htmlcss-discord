@@ -6,19 +6,21 @@
 
 body {
     margin: 0;
-   
+    font-family: 'Poppins', sans-serif;
 }
 
+p{
+    font-size: small;
+}
+/*site_header*/
 #site_header {
     margin: 0;
     background-color: var(--discord-primary);
 }
 
-/*site_header*/
-
 header {
     display: flex;
-    font-size: small;
+    font-size: smaller;
 }
 
 .container {
@@ -33,7 +35,6 @@ header {
     justify-content: space-between;
 
 }
-
 
 ul {
     color: white;
@@ -152,7 +153,7 @@ footer{
     justify-content: center;
     padding-top: 30px;
     padding-bottom: 30px;
-    font-size: small;
+    font-size: smaller;
 }
 .social{
     display: flex;
