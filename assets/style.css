@@ -83,7 +83,7 @@ main{
     color: white;
     background-color: var(--discord-dark);
 }
-/*end first*/
+/*second*/
 -.wave{
     background-image: url(./img/wave.svg);
     background-size: cover;
@@ -105,16 +105,6 @@ main{
     gap:40px;
 }
 
-.picture{
-   
-
-}
-
-.description{
-    
-}
-/*second*/
-/*/second*/
 /*third*/
 .third-type{
     display: flex;
@@ -136,3 +126,33 @@ h4{
     background-color: #8fa1e0;
     color: white;
 }
+/*end site main*/
+/*site footer*/
+/*.social{
+    color: white;
+    width: 5px;
+    height: 5px;
+}*/
+
+.more{
+    display: flex;
+    flex-direction: row;
+}
+.social{
+    display: flex;
+}
+
+h3{
+    color: #8fa1e0;
+}
+
+.ita{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+.flag{
+    height: 14px;
+    width: 16x;
+}
+
