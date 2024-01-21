@@ -6,6 +6,7 @@
 
 body {
     margin: 0;
+   
 }
 
 #site_header {
@@ -17,6 +18,7 @@ body {
 
 header {
     display: flex;
+    font-size: small;
 }
 
 .container {
@@ -182,5 +184,15 @@ hr{
     color: #8fa1e0;
 }
 
+.fo-end{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 20px;
+}
 
+.fo-button{
+    color: white;
+    background-color: #8fa1e0;    
+}
 
