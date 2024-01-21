@@ -178,6 +178,7 @@ hr{
     flex-direction: row;
     justify-content: space-between;
     padding-top: 20px;
+    padding-bottom: 10px;
 }
 
 .fo-button{
