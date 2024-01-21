@@ -63,7 +63,7 @@ main{
     flex-direction: column;
 }
 
-#first{
+#first-type{
     background-image: url(./img/jumbo.png);
     background-repeat:no-repeat;
     background-size:cover;
@@ -84,12 +84,25 @@ main{
     background-color: var(--discord-dark);
 }
 /*end first*/
-
+-.wave{
+    background-image: url(./img/wave.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+-.wave-down{
+    background-image: url(./img/wave.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: flex-end;
+}
 .second-type{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    flex-wrap: nowrap;   
+    flex-wrap: nowrap;  
+    align-items: center; 
+    padding: 100px;
+    gap:40px;
 }
 
 .picture{
@@ -101,3 +114,21 @@ main{
     
 }
 /*second*/
+/*/second*/
+/*third*/
+.third-type{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:100px;
+}
+
+.stars{
+    background-image: url(./img/stars.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.Mac2{
+    background-color: #8fa1e0;
+    color: white;
+}
