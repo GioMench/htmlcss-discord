@@ -36,13 +36,17 @@ header {
 ul {
     color: white;
     list-style-type: none;
-    display: flex;
-    flex-direction: row;
 }
 
-li {
+.hea-li{
     padding: 1rem;
 }
+
+.link{
+    display: flex;
+    flex-direction: row;  
+}
+
 
 button{
     border-radius: 20px;
@@ -133,13 +137,18 @@ h4{
     width: 5px;
     height: 5px;
 }*/
-
+footer{
+    background-color: var(--discord-dark);
+}
 .more{
     display: flex;
     flex-direction: row;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 .social{
     display: flex;
+    flex-direction: column;
 }
 
 h3{
@@ -147,12 +156,16 @@ h3{
 }
 
 .ita{
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
+    color: white;
 }
 .flag{
     height: 14px;
     width: 16x;
 }
+
+.fo-list{
+    flex-direction: column;
+    padding: 1px;
+}
+
 
