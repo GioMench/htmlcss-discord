@@ -127,6 +127,10 @@ main{
     background-image: url(./img/stars.svg);
     background-size: contain;
     background-repeat: no-repeat;
+    padding:20px;
+}
+h4{
+    margin:0;
 }
 .Mac2{
     background-color: #8fa1e0;
