@@ -117,6 +117,10 @@ main{
     padding:100px;
 }
 
+.reliable{
+    text-align: center;
+}
+
 .stars{
     background-image: url(./img/stars.svg);
     background-size: contain;
@@ -143,8 +147,10 @@ footer{
 .more{
     display: flex;
     flex-direction: row;
+    justify-content: center;
     padding-top: 30px;
     padding-bottom: 30px;
+    font-size: small;
 }
 .social{
     display: flex;
@@ -166,6 +172,10 @@ h3{
 .fo-list{
     flex-direction: column;
     padding: 1px;
+}
+
+.li-color li:first-child{
+    color: #8fa1e0;
 }
 
 
