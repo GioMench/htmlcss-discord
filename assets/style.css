@@ -1,7 +1,8 @@
 :root {
     --discord-primary: #255ee9;
     --discord-dark: #23272a;
-    --discord-light: rgba(246, 246, 246, 1);
+    --discord-light:#f7f6f7;
+    --discord-lighter: rgba(246, 246, 246, 1);
 }
 
 /*region common*/
@@ -93,7 +94,7 @@ main {
 }
 
 .wave {
-    color: lightgray;
+    color: var(--discord-light);
     display: flex;
 }
 
@@ -102,9 +103,10 @@ main {
 
 }
 
-.easy {
-    background-color: lightgray;
-    
+
+.back-container{
+    margin:0px;
+      background-color: var(--discord-light);
 }
 
 /*second*/
@@ -182,6 +184,16 @@ h3 {
 .flag {
     height: 14px;
     width: 16x;
+}
+
+.icon{
+    display: flex;
+    flex-direction: row;
+}
+.fab{
+    color: white;
+    padding:6px;
+    font-size: 15px;
 }
 
 .fo-list {
