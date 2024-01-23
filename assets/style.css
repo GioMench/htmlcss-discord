@@ -3,13 +3,14 @@
     --discord-dark: #23272a;
     --discord-light: rgba(246, 246, 246, 1);
 }
+
 /*region common*/
 body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
 }
 
-p{
+p {
     font-size: small;
 }
 
@@ -23,7 +24,7 @@ ul {
     list-style-type: none;
 }
 
-button{
+button {
     border-radius: 20px;
     background-color: white;
     padding: 9px 20px 9px 20px;
@@ -31,6 +32,7 @@ button{
     margin: 2px 10px 2px 10px;
     text-align: center;
 }
+
 /*region header*/
 #site_header {
     margin: 0;
@@ -50,81 +52,100 @@ header {
 
 }
 
-.hea-li{
+.hea-li {
     padding: 1rem;
 }
 
-.link{
+.link {
     display: flex;
-    flex-direction: row;  
+    flex-direction: row;
 }
 
 /*endregion_header*/
 
 /*site_main*/
 
-main{
+main {
     display: flex;
     margin: 0px;
     flex-direction: column;
 }
 
-#first-type{
+#first-type {
     background-image: url(./img/jumbo.png);
-    background-repeat:no-repeat;
-    background-size:cover;
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 100%;
-    height:max-content;  
+    height: max-content;
 }
 
-.your_space{
+.your_space {
     color: white;
     text-align: center;
     width: 60%;
-    margin: auto; 
+    margin: auto;
     padding: 100px;
 }
 
-.browser{
+.browser {
     color: white;
     background-color: var(--discord-dark);
 }
+
+.wave {
+    color: lightgray;
+    display: flex;
+}
+
+.bottom_wave {
+    transform: rotate(180deg);
+
+}
+
+.easy {
+    background-color: lightgray;
+    
+}
+
 /*second*/
-.second-type{
+.second-type {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    flex-wrap: nowrap;  
-    align-items: center; 
+    flex-wrap: nowrap;
+    align-items: center;
     padding: 100px;
-    gap:40px;
+    gap: 40px;
 }
 
 /*third*/
-.third-type{
+.third-type {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding:100px;
+    padding: 100px;
 }
 
-.reliable{
+.reliable {
     text-align: center;
 }
 
-.stars{
+.stars {
     background-image: url(./img/stars.svg);
     background-size: contain;
     background-repeat: no-repeat;
-    padding:20px;
+    padding: 20px;
 }
-h4{
-    margin:0;
+
+h4 {
+    margin: 0;
 }
-.Mac2{
+
+.Mac2 {
     background-color: #8fa1e0;
     color: white;
 }
+
 /*end site main*/
 /*site footer*/
 /*.social{
@@ -132,10 +153,11 @@ h4{
     width: 5px;
     height: 5px;
 }*/
-footer{
+footer {
     background-color: var(--discord-dark);
 }
-.more{
+
+.more {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -143,37 +165,41 @@ footer{
     padding-bottom: 30px;
     font-size: smaller;
 }
-.social{
+
+.social {
     display: flex;
     flex-direction: column;
 }
 
-h3{
+h3 {
     color: #8fa1e0;
 }
 
-.ita{
+.ita {
     color: white;
 }
-.flag{
+
+.flag {
     height: 14px;
     width: 16x;
 }
 
-.fo-list{
+.fo-list {
     flex-direction: column;
     padding: 1px;
+
 }
 
-.li-color li:first-child{
+.li-color li:first-child {
+    color: #8fa1e0;
+    font-weight: bold;
+}
+
+hr {
     color: #8fa1e0;
 }
 
-hr{
-    color: #8fa1e0;
-}
-
-.fo-end{
+.fo-end {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -181,8 +207,7 @@ hr{
     padding-bottom: 10px;
 }
 
-.fo-button{
+.fo-button {
     color: white;
-    background-color: #8fa1e0;    
+    background-color: #8fa1e0;
 }
-
